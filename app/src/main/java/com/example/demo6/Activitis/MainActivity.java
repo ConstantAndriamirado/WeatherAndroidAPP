@@ -195,25 +195,7 @@ public class MainActivity extends AppCompatActivity {
 
         String city = cityName.getText().toString();
         //cityName.setText(fusedLocationProviderClient.toString());
-/*
-        String[] temp = new String[0];
-        try {
-            if (cityName!=null){
-                url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=[votre clé]&units=metric";
-            }else {
-                Toast.makeText(MainActivity.this, "Enter City", Toast.LENGTH_SHORT).show();
-            }
-            getWeather task= new getWeather();
-            temp[0] = task.execute(url).get();
-        }catch (ExecutionException e){
-            e.printStackTrace();
-        }catch (InterruptedException e){
-            e.printStackTrace();
-        }
-        if (temp[0] == null){
-            show.setText("Cannot able to find Weather");
-        }
-*/
+
         final String[] temp={""};
 
         try {
